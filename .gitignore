@@ -1,0 +1,17 @@
+# IntelliJ
+*.ipr
+*.iml
+*.iws
+/.idea/*
+!/.idea/fileTemplates
+!/.idea/inspectionProfiles
+!/.idea/codeStyleSettings.xml
+!/.idea/projectCodeStyle.xml
+!/.idea/vcs.xml
+!/.idea/misc.xml
+
+#	Maven
+**/target/
+
+# AsciiDoc/Markdown
+.$*.bkp
