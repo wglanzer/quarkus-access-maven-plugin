@@ -1,7 +1,7 @@
 # Quarkus Access Maven Plugin
 
-![Actions](https://img.shields.io/github/actions/workflow/status/wglanzer/quarkus-access-maven-plugin/maven.yml?logo=github&cacheSeconds=0)
-![Release](https://img.shields.io/github/v/release/wglanzer/quarkus-access-maven-plugin?logo=github&cacheSeconds=0)
+![Actions](https://img.shields.io/github/actions/workflow/status/wglanzer/quarkus-access-maven-plugin/maven.yml?logo=github)
+![Release](https://img.shields.io/github/v/release/wglanzer/quarkus-access-maven-plugin?logo=github)
 
 A Maven plugin to make default Quarkus injection points public. This plugin leverages bytecode manipulation (via Javassist) to expose injection points that are otherwise private.
 
