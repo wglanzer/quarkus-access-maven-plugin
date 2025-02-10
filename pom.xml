@@ -6,7 +6,7 @@
 
   <groupId>com.github.wglanzer.quarkus</groupId>
   <artifactId>quarkus-access-maven-plugin</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>maven-plugin</packaging>
 
   <name>Quarkus Access Maven Plugin</name>
