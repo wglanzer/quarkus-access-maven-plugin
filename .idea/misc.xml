@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="EntryPointsManager">
-    <list size="8">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="io.quarkus.test.junit.mockito.InjectSpy" />
       <item index="1" class="java.lang.String" itemvalue="jakarta.annotation.PostConstruct" />
       <item index="2" class="java.lang.String" itemvalue="jakarta.annotation.PreDestroy" />
@@ -9,14 +9,15 @@
       <item index="4" class="java.lang.String" itemvalue="jakarta.enterprise.context.Dependent" />
       <item index="5" class="java.lang.String" itemvalue="jakarta.enterprise.context.RequestScoped" />
       <item index="6" class="java.lang.String" itemvalue="jakarta.enterprise.inject.Produces" />
-      <item index="7" class="java.lang.String" itemvalue="picocli.CommandLine.Command" />
+      <item index="7" class="java.lang.String" itemvalue="org.apache.maven.plugins.annotations.Mojo" />
+      <item index="8" class="java.lang.String" itemvalue="picocli.CommandLine.Command" />
     </list>
     <writeAnnotations>
       <writeAnnotation name="com.google.gson.annotations.Expose" />
-      <writeAnnotation name="de.adito.designer.services.transpile.MemoryFileSystemProvider.MemoryTempDir" />
       <writeAnnotation name="io.quarkus.test.InjectMock" />
       <writeAnnotation name="io.quarkus.test.junit.mockito.InjectSpy" />
       <writeAnnotation name="jakarta.inject.Inject" />
+      <writeAnnotation name="org.apache.maven.plugins.annotations.Parameter" />
       <writeAnnotation name="picocli.CommandLine.Command" />
       <writeAnnotation name="picocli.CommandLine.Option" />
       <writeAnnotation name="picocli.CommandLine.Parameters" />
@@ -82,7 +83,7 @@
       </value>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="graalvm-jdk-21" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="temurin-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/target" />
   </component>
 </project>
